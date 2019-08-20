@@ -5,3 +5,6 @@ This project reads and manipulates a large data file of average gas prices from 
 - [Main Testing File](SemesterProject.cpp)
 - [NewLine Object Class](NewLine.h)
 - [NewLine Object Class Methods](NewLineMethods.h)
+
+
+## Exploring Data Structures Website
