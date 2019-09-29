@@ -1,0 +1,60 @@
+.toolbar-navigation {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+  background-color: #373737;
+}
+
+.toolbar-logo {
+  display: none;
+}
+
+.spacer {
+  display: none;
+}
+
+.toolbar-links {
+  padding: 0;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.toolbar-links a {
+  color: #F4F5F8;
+  padding: 20px 16px;
+  display: block;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+.toolbar-links a:hover,
+.toolbar-links a:active {
+  background-color: #DADEF9;
+  color: #373737;
+}
+
+@media screen and (min-width: 736px) {
+  .toolbar-logo {
+    margin-left: 30px;
+    font-size: 26px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #F4F5F8;
+    display: flex;
+  }
+
+  .spacer {
+    flex: 1;
+    display: flex;
+  }
+}
