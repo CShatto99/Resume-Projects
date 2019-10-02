@@ -62,7 +62,10 @@ const Project4_1 = () => {
   for(int i = 0; i < maxSize; i++) {
 
     long temp = remove();
-    System.out.print(temp + " ");
+    System.out.print(temp);
+
+    if(i < maxSize-1)
+      System.out.print("->");
 
   }
 
@@ -79,7 +82,7 @@ const Project4_1 = () => {
   int size = 10;
   Queue q = new Queue(size);
 
-  for(int i = 0; i < size; i++) {
+  for(int i = 0; i < maxSize; i++) {
 
     long num = (long)(Math.random()*99);
     q.insert(num);
@@ -95,10 +98,9 @@ const Project4_1 = () => {
 
       <div className="project-4_1-remove-exp">
         <p>
-          <b>Goal:</b> remove the first element in the queue array and return it.
+          <b>Function:</b> remove the first element in the queue array and return it.
           <br/>
-          <br/>
-          <b>Algorithm:</b>
+          <b>Algorithm</b>
           <br/>
           <ul>
             <li>Save a copy of the first element in the queue array and
@@ -111,19 +113,31 @@ const Project4_1 = () => {
 
       <div className="project-4_1-display-exp">
         <p>
-          For the display method we want to create a For Loop that will
-          cover the entire length of the queue. In each iteration of the
-          For Loop we want to create a copy of the front value using the
-          remove method and finally output that value to the console.
+          <b>Function:</b> display all contents of a queue.
+          <br/>
+          <b>Algorithm</b>
+          <br/>
+          <ul>
+            <li>Declare For Loop that iterates over the whole queue.</li>
+            <li>Save a temporary copy of the current first item in the queue by
+                calling the remove method.</li>
+            <li>Display the current first item.</li>
+          </ul>
         </p>
       </div>
 
       <div className="project-4_1-main-exp">
         <p>
-          In the test method we want to first intialize a size variable
-          and create a Queue object using that size. Next, a For Loop is
-          used to completely fill the queue with random integers. Finally,
-          the display method is called.
+          <b>Function:</b> demonstrate functionality of the solution.
+          <br/>
+          <b>Algorithm</b>
+          <br/>
+          <ul>
+            <li>Declare a queue with an arbitrary size.</li>
+            <li>Deaclare a For Loop that iterates over the entire queue.</li>
+            <li>Generate random integers and insert them into the queue.</li>
+            <li>Call the display method.</li>
+          </ul>
         </p>
       </div>
 
