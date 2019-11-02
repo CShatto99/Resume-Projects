@@ -1,0 +1,77 @@
+.project-10_4-grid {
+  margin: 0;
+}
+
+.title-10_4 {
+  grid-area: title-10_4;
+  text-align: center;
+}
+
+.description-10_4 {
+  grid-area: description-10_4;
+  text-align: center;
+}
+
+.description-10_4 a {
+  color: #1C1C1C;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.description-10_4 a:hover,
+.description-10_4 a:active {
+  text-decoration: underline;
+}
+
+.image-10_4 {
+  grid-area: image-10_4;
+  display: inline-grid;
+}
+
+.image-10_4 img {
+  margin: auto;
+}
+
+.project-10_4-remove {
+  grid-area: project-10_4-remove;
+}
+.project-10_4-remove-exp {
+  grid-area: project-10_4-remove-exp;
+  margin: auto;
+}
+
+.project-10_4-display {
+  grid-area: project-10_4-display;
+}
+.project-10_4-display-exp {
+  grid-area: project-10_4-display-exp;
+  margin: auto;
+}
+
+.project-10_4-main {
+  grid-area: project-10_4-main;
+}
+.project-10_4-main-exp {
+  grid-area: project-10_4-main-exp;
+  margin: auto;
+}
+
+.hr-10_4 {
+  grid-area: hr-10_4;
+}
+
+@media screen and (min-width: 736px) {
+  .project-10_4-grid {
+    color: #1C1C1C;
+    font-family: 'Titillium Web', 'sans-serif';
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-areas:
+    "title-10_4 title-10_4"
+    "description-10_4 image-10_4"
+    "project-10_4-remove project-10_4-remove-exp"
+    "project-10_4-display project-10_4-display-exp"
+    "project-10_4-main project-10_4-main-exp"
+    "hr-10_4 hr-10_4";
+    grid-gap: 50px;
+  }
+}
