@@ -1,0 +1,46 @@
+.home-page-grid {
+  margin: 0;
+}
+
+.home-page-description {
+  grid-area: home-page-description;
+  text-align: center;
+  margin: auto;
+}
+
+.home-page-image {
+  grid-area: home-page-image;
+  display: inline-block;
+  text-align: center;
+}
+
+.home-page-image a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  transition: 0.3s;
+}
+
+.home-page-image a:hover,
+.home-page-image a:active {
+  color: #DADEF9;
+}
+
+.home-page-hr {
+  grid-area: home-page-hr;
+}
+
+@media screen and (min-width: 736px) {
+  .home-page-grid {
+    font-family: 'Titillium Web', 'sans-serif';
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "home-page-title home-page-title"
+    "home-page-description home-page-image"
+    "home-page-hr home-page-hr";
+    grid-gap: 50px;
+  }
+
+}

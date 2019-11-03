@@ -1,0 +1,39 @@
+.home-grid {
+  font-family: 'Titillium Web', 'sans-serif';
+  font-size: 16px;
+  margin: 94px 0 30px 0;
+  display: grid;
+  grid-template-columns:  1fr ;
+  grid-template-areas:
+  "home-page-title";
+  grid-gap: 30px;
+}
+
+.home-page-title {
+  grid-area: home-page-title;
+  height: 64px;
+  text-align: center;
+}
+
+.home-page-title h1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page-grid {
+  grid-area: home-page-grid;
+}
+
+@media screen and (min-width: 736px) {
+  .home-grid {
+    font-family: 'Titillium Web', 'sans-serif';
+    margin: 94px 0 30px 0;
+    display: grid;
+    grid-template-columns:  1fr 900px 1fr;
+    grid-template-areas:
+    ". home-page-title ."
+    ". home-page-grid .";
+    grid-gap: 30px;
+  }
+}
