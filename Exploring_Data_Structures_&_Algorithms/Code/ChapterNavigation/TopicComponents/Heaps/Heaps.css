@@ -1,0 +1,68 @@
+.heaps-grid {
+  font-family: 'Titillium Web', 'sans-serif';
+  font-size: 16px;
+  margin: 94px 0 30px 0;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-template-areas:
+  "title title"
+  "description description"
+  "image image";
+  grid-gap: 30px;
+}
+
+.heaps-grid div {
+  margin: auto 0;
+}
+
+.heaps-grid pre code {
+  background-color: #eee;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+}
+
+.heaps-title {
+  grid-area: title;
+  text-align: center;
+}
+
+.project-12_1-grid {
+  grid-area: project-12_1-grid;
+}
+
+.project-12_2-grid {
+  grid-area: project-12_2-grid;
+}
+
+.project-12_3-grid {
+  grid-area: project-12_3-grid;
+}
+
+.project-12_4-grid {
+  grid-area: project-12_4-grid;
+}
+
+.project-12_5-grid {
+  grid-area: project-12_5-grid;
+}
+
+@media screen and (min-width: 736px) {
+  .heaps-grid {
+    color: #1C1C1C;
+    font-family: 'Titillium Web', 'sans-serif';
+    margin: 94px 0 30px 0;
+    display: grid;
+    grid-template-columns:  1fr 900px 1fr;
+    grid-template-areas:
+    ". title ."
+    ". project-12_1-grid ."
+    ". project-12_2-grid ."
+    ". project-12_3-grid ."
+    ". project-12_4-grid ."
+    ". project-12_5-grid .";
+
+    grid-gap: 50px;
+  }
+}
