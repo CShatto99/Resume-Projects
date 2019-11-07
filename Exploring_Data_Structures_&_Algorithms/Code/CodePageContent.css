@@ -2,8 +2,6 @@
   margin: 0;
 }
 
-
-
 .code-page-description {
   grid-area: code-page-description;
   text-align: center;
@@ -27,7 +25,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "code-page-title code-page-title"
     "code-page-description code-page-image"
     "code-page-hr code-page-hr";
     grid-gap: 50px;

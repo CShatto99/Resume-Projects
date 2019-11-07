@@ -29,11 +29,11 @@ const CodePageContent = () => {
       </div>
 
       <div className="code-page-image">
-        <img style={{width: '180px'}} src={hashTableVisual} />
-        <img style={{width: '180px'}} src={graphVisual} />
-        <img style={{width: '180px'}} src={bstVisual} />
-        <img style={{width: '180px'}} src={linkedListVisual} />
-        <img style={{width: '180px'}} src={stackVisual} />
+        <img style={{width: '180px'}} src={hashTableVisual} alt="Hash table visual."/>
+        <img style={{width: '180px'}} src={graphVisual} alt="Graph visual."/>
+        <img style={{width: '180px'}} src={bstVisual} alt="Binary search tree visual."/>
+        <img style={{width: '180px'}} src={linkedListVisual} alt="Linked list visual."/>
+        <img style={{width: '180px'}} src={stackVisual} alt="Stack visual."/>
       </div>
 
       <div className="code-page-hr">

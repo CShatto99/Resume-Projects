@@ -1,5 +1,4 @@
 import React from 'react'
-import Toolbar from '../Toolbar/Toolbar'
 import Sidenav from './ChapterNavigation/Sidenav'
 import './ChapterNavigation/Sidenav.css'
 import './Code.css'

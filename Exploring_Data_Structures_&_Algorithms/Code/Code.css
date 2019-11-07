@@ -5,19 +5,17 @@
   display: grid;
   grid-template-columns:  1fr 1fr;
   grid-template-areas:
-  "title title"
-  "description description"
-  "image image";
+  "title title";
   grid-gap: 30px;
-}
-
-.code-page-grid {
-  grid-area: code-page-grid;
 }
 
 .code-page-title {
   grid-area: code-page-title;
   text-align: center;
+}
+
+.code-page-grid {
+  grid-area: code-page-grid;
 }
 
 @media screen and (min-width: 736px) {
