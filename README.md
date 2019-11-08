@@ -1,7 +1,8 @@
 # Resume-Projects
 This repository showcases the projects that I have placed on my resume.
 
-## Exploring Data Structures & Algorithms in Java
+# Exploring Data Structures & Algorithms in Java
+
 ![HomePage](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteHomePage.png)
 
 ### Introduction
@@ -14,7 +15,15 @@ At the start of summer 2019 I heard about and became interested in topics of dat
 * Implemented the front-end and back-end of a contact form/page using the Node.js runtime environment.
 * Used HTML5 grids and CSS3 to structure each and style every page on the site from scratch (no Bootstrap).
 
-## 21 Years of Gas Prices
+### Implementing the Contact Page
+
+![ContactPage](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteContactPage.png)
+
+The reasons for creating a contact page were quite obvious. I needed a way for other people to: notify me about mistakes that were made in the website and ask questions about the content that was available.
+
+In order to implement this contact form, a few dependecies were necessary. The dependencies that I used were: [body-parser](https://www.npmjs.com/package/body-parser), [concurrently](https://www.npmjs.com/package/concurrently), [express](https://www.npmjs.com/package/express), [nodemailer](https://www.npmjs.com/package/nodemailer) and [nodemon](https://www.npmjs.com/package/nodemon). If you would like to see the implementation is detail, the code to the front-end and back-end files are [here]().
+
+# 21 Years of Gas Prices
 
 
 
