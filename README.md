@@ -2,6 +2,7 @@
 This repository showcases the projects that I have placed on my resume.
 
 ## Exploring Data Structures & Algorithms in Java
+![HomePage](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteHomePage.png)
 
 ### Introduction
 
