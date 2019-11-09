@@ -29,7 +29,9 @@ When it came time to decide which method I wanted to use to design the basic lay
 
 ![WebsitePageLayout](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsitePageLayout.png)
 
-The image you see above is a very basic representation of the underlying structure of the home, introduction and contact pages and only part of the project pages. For all of the project pages, a similar layout was used. The only difference is that the structure of the main content section consists of a nested grid. You can see the example here: 
+The image you see above is a very basic representation of the underlying structure of the home, introduction and contact pages and only part of the project pages.
+
+For all of the project pages, a similar layout was used. The only difference is that the structure of the main content section consists of a nested grid. You can see the example here: 
 
 ![WebsiteCodeLayout](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteCodeLayout.png)
 
