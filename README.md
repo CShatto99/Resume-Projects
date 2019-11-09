@@ -13,7 +13,7 @@ At the start of summer 2019 I heard about and became interested in topics of dat
 
 * Used React functional and class components to structure the user-interface.
 * Implemented the front-end and back-end of a contact form/page using the Node.js runtime environment.
-* Used HTML5 grids and CSS3 to structure each and style every page on the site from scratch (no Bootstrap).
+* Used HTML5 and CSS3 grids to structure each and style every page on the site from scratch (no Bootstrap).
 
 ### Implementing the Contact Page
 
@@ -21,7 +21,17 @@ At the start of summer 2019 I heard about and became interested in topics of dat
 
 The reasons for creating a contact page were quite obvious. I needed a way for other people to: notify me about mistakes that were made in the website and ask questions about the content that was available.
 
-In order to implement this contact form, a few dependecies were necessary. The dependencies that I used were: [body-parser](https://www.npmjs.com/package/body-parser), [concurrently](https://www.npmjs.com/package/concurrently), [express](https://www.npmjs.com/package/express), [nodemailer](https://www.npmjs.com/package/nodemailer) and [nodemon](https://www.npmjs.com/package/nodemon). If you would like to see the implementation is detail, the code to the front-end and back-end files are [here]().
+So in order to implement this contact form, a few dependecies were necessary. The dependencies that I used were: [axios](https://www.npmjs.com/package/axios), a[body-parser](https://www.npmjs.com/package/body-parser), [concurrently](https://www.npmjs.com/package/concurrently), [express](https://www.npmjs.com/package/express), [nodemailer](https://www.npmjs.com/package/nodemailer) and [nodemon](https://www.npmjs.com/package/nodemon). If you would like to see the implementation is detail, the code to the front-end and back-end files are [here](https://github.com/CShatto99/Resume-Projects/tree/master/READMECodeFiles).
+
+### Designing the CSS Grid Layout
+
+When it came time to decide which method I wanted to use to design the basic layout of each page, I knew that CSS grids was my best option. Although it took me a few attempts to create a reasonable layout, I am now quite satisfied with the result: 
+
+![WebsitePageLayout](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsitePageLayout.png)
+
+The image you see above is a very basic representation of the underlying structure of the home, introduction and contact pages and only part of the project pages. For all of the project pages, a similar layout was used. The only difference is that the structure of the main content section consists of a nested grid. You can see the example here: 
+
+![WebsiteCodeLayout](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteCodeLayout.png)
 
 # 21 Years of Gas Prices
 
