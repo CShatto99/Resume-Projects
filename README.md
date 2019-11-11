@@ -35,6 +35,10 @@ For all of the project pages, a similar layout was used. The only difference is 
 
 ![WebsiteCodeLayout](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteCodeLayout.png)
 
+### Accessing the website
+
+If you would like to see the website in its entirety, the domain is [https://ExploringDS&A.com](). If you happen to find mistakes with any of the content, notify me through the contact page.
+
 # 21 Years of Gas Prices
 
 
