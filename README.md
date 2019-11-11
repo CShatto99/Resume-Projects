@@ -21,7 +21,7 @@ At the start of summer 2019 I heard about and became interested in topics of dat
 
 The reasons for creating a contact page were quite obvious. I needed a way for other people to: notify me about mistakes that were made in the website and ask questions about the content that was available.
 
-So in order to implement this contact form, a few dependecies were necessary. The dependencies that I used were: [axios](https://www.npmjs.com/package/axios), a[body-parser](https://www.npmjs.com/package/body-parser), [concurrently](https://www.npmjs.com/package/concurrently), [express](https://www.npmjs.com/package/express), [nodemailer](https://www.npmjs.com/package/nodemailer) and [nodemon](https://www.npmjs.com/package/nodemon). If you would like to see the implementation is detail, the code to the front-end and back-end files are [here](https://github.com/CShatto99/Resume-Projects/tree/master/READMECodeFiles).
+So in order to implement this contact form, a few dependecies were necessary. The dependencies that I used were: [axios](https://www.npmjs.com/package/axios), [body-parser](https://www.npmjs.com/package/body-parser), [concurrently](https://www.npmjs.com/package/concurrently), [express](https://www.npmjs.com/package/express), [nodemailer](https://www.npmjs.com/package/nodemailer) and [nodemon](https://www.npmjs.com/package/nodemon). If you would like to see the implementation is detail, the code to the front-end and back-end files are [here](https://github.com/CShatto99/Resume-Projects/tree/master/READMECodeFiles).
 
 ### Designing the CSS Grid Layout
 
