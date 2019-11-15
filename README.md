@@ -37,6 +37,8 @@ For all of the project pages, a similar layout was used. The only difference is 
 
 ### Accessing the website
 
+As of right now, the website has not been publicized. I will upload the website as soon as possible but if you have any questions just email me at @exploringdatastructures@gmail.com.
+
 If you would like to see the website in its entirety, the domain is [https://ExploringDS&A.com](). If you happen to find mistakes with any of the content, notify me through the contact page.
 
 # 21 Years of Gas Prices
