@@ -41,7 +41,36 @@ As of right now, the website has not been publicized. I will upload the website 
 
 If you would like to see the website in its entirety, the domain is [https://ExploringDS&A.com](). If you happen to find mistakes with any of the content, notify me through the contact page.
 
-# 21 Years of Gas Prices
+
+
+# Image Classification-Based Platformer (Incomplete)
+
+![GameUI](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/GameUI.png)
+
+### Introduction
+
+Around the end of 2018 I made quite a simple platformer game and a year or so later I decided to make the game a bit more interesting by using machine learning image classification to control the character. So to begin this project, I chose the [p5.js](https://p5js.org/) client-side library to design the UI and implement all of the logic for the game. Once this was complete, I utilized a pre-trained image classification model called [Teachable Machine](https://teachablemachine.withgoogle.com/train) to train each control. I then finally used the [ml5.js](https://ml5js.org/) library to implement the trained model.
+
+### What I Learned
+
+* Used OOP to design and implement all objects, the user interface and basic game logic.
+* Created a personal image classification model using Teachable Machine.
+* Implemented a pre-trained image classification model using the ml5.js machine learning library.
+
+### Creating The Model
+
+Creating the image classification model was quite simple with the help of Teachable Machine. All I was required to do was set up and name classes, take image samples through my webcam and then click the "Train Model" button.
+
+More specifically, I created a class for each control: 
+* Move UP: fingers interlocked, arms horizontal and positioned in the upper half of the webcam.
+* Move DOWN: fingers interlocked, arms horizontal and positioned in the lower half of the webcam.
+* Move LEFT: left hand raised and positioned in the left half of the webcam.
+* Move RIGHT: right hand raised and positioned in the right half of the webcam.
+* NEUTRAL: hide hands/arms and position self towards the middle of the webcam.
+
+
+
+# 21 Years of Gas Prices (Incomplete)
 
 
 
