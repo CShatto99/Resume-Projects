@@ -64,9 +64,15 @@ Creating the image classification model was quite simple with the help of Teacha
 More specifically, I created a class for each control: 
 * Move UP: fingers interlocked, arms horizontal and positioned in the upper half of the webcam.
 * Move DOWN: fingers interlocked, arms horizontal and positioned in the lower half of the webcam.
-* Move LEFT: left hand raised and positioned in the left half of the webcam.
-* Move RIGHT: right hand raised and positioned in the right half of the webcam.
+* Move LEFT: left hand raised, fingers spread and positioned in the left half of the webcam.
+* Move RIGHT: right hand raised, clenched fist and positioned in the right half of the webcam.
 * NEUTRAL: hide hands/arms and position self towards the middle of the webcam.
+
+### How To Play
+
+If you would like to test the game yourself, you can download or clone the repository [here](https://github.com/CShatto99/Resume-Projects/tree/master/Image_Classifying_Platformer). If you would rather play the version of the game with classic controls (arrow keys), the repository is [here](https://github.com/CShatto99/MyProjects/tree/master/Simple_Platformer).
+
+Once the repository has been downloaded, open up the index.html file with google chrome and the game should automatically execute. You can also edit the game however you like with the IDE of your choice.
 
 
 
