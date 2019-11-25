@@ -58,12 +58,13 @@ function draw() {
   background(75);
 
   // displays the webcam
-  //image(video, 0, 0);
-
-  textSize(32);
-  textAlign(CENTER, CENTER);
-  fill(255);
-  text(label, width/2, height-16);
+  // image(video, 0, 0);
+Co
+  // displays the current label
+  // textSize(32);
+  // textAlign(CENTER, CENTER);
+  // fill(255);
+  // text(label, width/2, height-16);
 
 
   // call the player methods
