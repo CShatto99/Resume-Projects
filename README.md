@@ -43,7 +43,7 @@ If you would like to see the website in its entirety, the domain is [https://Exp
 
 
 
-# Image Classification-Based Platformer (Incomplete)
+# Image Classification-Based Platformer
 
 ![GameUI](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/GameUI.png)
 
@@ -62,15 +62,15 @@ Around the end of 2018 I made quite a simple platformer game and a year or so la
 Creating the image classification model was quite simple with the help of Teachable Machine. All I was required to do was set up and name classes, take image samples through my webcam and then click the "Train Model" button.
 
 More specifically, I created a class for each control: 
-* Move UP: fingers interlocked, arms horizontal and positioned in the upper half of the webcam.
-* Move DOWN: fingers interlocked, arms horizontal and positioned in the lower half of the webcam.
-* Move LEFT: left hand raised, fingers spread and positioned in the left half of the webcam.
-* Move RIGHT: right hand raised, clenched fist and positioned in the right half of the webcam.
-* NEUTRAL: hide hands/arms and position self towards the middle of the webcam.
+* Move **UP**: fingers interlocked, arms horizontal and positioned in the upper half of the webcam.
+* Move **DOWN**: fingers interlocked, arms horizontal and positioned in the lower half of the webcam.
+* Move **LEFT**: left hand raised, fingers spread and positioned in the left half of the webcam.
+* Move **RIGHT**: right hand raised, clenched fist and positioned in the right half of the webcam.
+* **NEUTRAL**: hide hands/arms and position self towards the middle of the webcam.
 
 ### How To Play
 
-IMPORTANT: for optimal image classification, position yourself in front of a monchromatic background. The controls were trained on a solid white background so replicating these condiditons will result in the most accurate classifications.
+**IMPORTANT**: for optimal image classification, position yourself in front of a monchromatic background. The controls were trained on a solid white background so replicating these condiditons will result in the most accurate classifications.
 
 If you would like to test the game yourself, you can download or clone the repository [here](https://github.com/CShatto99/Resume-Projects/tree/master/Image_Classifying_Platformer). If you would rather play the version of the game with classic controls (arrow keys), the repository is [here](https://github.com/CShatto99/MyProjects/tree/master/Simple_Platformer).
 
