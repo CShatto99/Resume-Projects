@@ -70,6 +70,8 @@ More specifically, I created a class for each control:
 
 ### How To Play
 
+IMPORTANT: for optimal image classification, position yourself in front of a monchromatic background. The controls were trained on a solid white background so replicating these condiditons will result in the most accurate classifications.
+
 If you would like to test the game yourself, you can download or clone the repository [here](https://github.com/CShatto99/Resume-Projects/tree/master/Image_Classifying_Platformer). If you would rather play the version of the game with classic controls (arrow keys), the repository is [here](https://github.com/CShatto99/MyProjects/tree/master/Simple_Platformer).
 
 Once the repository has been downloaded, open up the index.html file with google chrome and the game should automatically execute. You can also edit the game however you like with the IDE of your choice.
