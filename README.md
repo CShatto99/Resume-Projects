@@ -80,5 +80,31 @@ Once the repository has been downloaded, open up the index.html file with google
 
 # 21 Years of Gas Prices (Incomplete)
 
+### Introduction
 
+For the first programming class that I took, I was assigned this semester project. The professor provided a large file of gas price data from the years 1993-2013. Each line in the file contained the month (MM), day (DD), year (YYYY) and price of gas (#.###) in this order (e.g., 08-23-1999:1.273).
+
+The requirements of the project included manipulating the data in various ways. More specifically, the project required 6 essential member functions: avgYearlyPrice(), avgMonthlyPrice(), highYearlyPrice(), lowYearlyPrice(), lowToHigh() and highToLow(). Below, I will cover each of these functions in order as well as provide some graphs that represent the data.
+
+### What I Learned
+
+* Used the principles of OOP to structure the code.
+* Utilized the c++ Standard Template Library to implement the algorithms.
+* Manipulated input files and generated output files using the fstream object class.
+
+### Implementing The Member Functions
+
+Each of the sections below will contain similar content. For each section, I will briefly explain the algorithm and provide some graphical representation of the resulting data. The project was created in Visual Studio and the code for the original project is (here)[] or you can look at the project with an exhaustive explanation (here)[]. Also, the code for just the member functions below can be found (here)[] or (here)[] (exhaustive explanation).
+
+#### Average Yearly Prices of Gas
+
+In this member function the goal is to find the average price of gas for each year, store them all in an array and display the result.
+Below will be a high-level description of the algorithm.
+
+For every datapoint in the input file:
+
+* Add the gas price of the current datapoint to the yearly total and keep track of the number of days in the year until the year changes.
+* Insert the average gas price to the output array when the year changes.
+* If the year increments, reset the yearly total and number of days in the year.
+* Display the output array when the loop exits.
 
