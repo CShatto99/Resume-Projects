@@ -94,7 +94,7 @@ The requirements of the project included manipulating the data in various ways. 
 
 ### Implementing The Member Functions
 
-Each of the sections below will contain similar content. For each section, I will briefly explain the algorithm and provide some graphical representation of the resulting data. The project was created in Visual Studio and the code for the original project is (here)[] or you can look at the project with an exhaustive explanation (here)[]. Also, the code for just the member functions below can be found (here)[] or (here)[] (exhaustive explanation).
+Each of the sections below will contain similar content. For each section, I will briefly explain the algorithm and provide some graphical representation of the resulting data. The project was created in Visual Studio and the code for the original project is [here](https://github.com/CShatto99/Resume-Projects/tree/master/21YearsOfGasPrices) or you can look at the project with an exhaustive explanation [here](https://github.com/CShatto99/Resume-Projects/tree/master/21YearsOfGasPricesDescriptive). Also, the code for just the member functions below can be found [here](https://github.com/CShatto99/Resume-Projects/blob/master/21YearsOfGasPrices/21YearsOfGasPrices/NewLineMethods.h) or [here](https://github.com/CShatto99/Resume-Projects/blob/master/21YearsOfGasPricesDescriptive/21YearsOfGasPrices/NewLineMethods.h) (exhaustive explanation).
 
 #### Average Yearly Prices of Gas
 
@@ -103,8 +103,9 @@ Below will be a high-level description of the algorithm.
 
 For every datapoint in the input file:
 
-* Add the gas price of the current datapoint to the yearly total and keep track of the number of days in the year until the year changes.
-* Insert the average gas price to the output array when the year changes.
-* If the year increments, reset the yearly total and number of days in the year.
+* Add the price of gas to the yearly sum and keep track of the number of days in the year until the year changes.
+* Insert the average gas price to the output array, reset the yearly sum and number of days in the year when the year changes.
 * Display the output array when the loop exits.
+
+![AvgYearlyPrice[(AverageYearlyPriceImage.png)
 
