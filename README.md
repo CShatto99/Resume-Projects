@@ -107,5 +107,5 @@ For every datapoint in the input file:
 * Insert the average gas price to the output array, reset the yearly sum and number of days in the year when the year changes.
 * Display the output array when the loop exits.
 
-![AvgYearlyPrice](AverageYearlyPriceImage.png)
+![AvgYearlyPrice](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/AverageYearlyPriceImage.png)
 
