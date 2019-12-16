@@ -96,7 +96,7 @@ The requirements of the project included manipulating the data in various ways. 
 
 Each of the sections below will contain similar content. For each section, I will briefly explain the algorithm and provide some graphical representation of the resulting data. The project was created in Visual Studio and the code for the original project is [here](https://github.com/CShatto99/Resume-Projects/tree/master/21YearsOfGasPrices) or you can look at the project with an exhaustive explanation [here](https://github.com/CShatto99/Resume-Projects/tree/master/21YearsOfGasPricesDescriptive). Also, the code for just the member functions below can be found [here](https://github.com/CShatto99/Resume-Projects/blob/master/21YearsOfGasPrices/21YearsOfGasPrices/NewLineMethods.h) or [here](https://github.com/CShatto99/Resume-Projects/blob/master/21YearsOfGasPricesDescriptive/21YearsOfGasPrices/NewLineMethods.h) (exhaustive explanation).
 
-#### Average Yearly Prices of Gas
+#### Average Yearly Price of Gas
 
 In this member function the goal is to find the average price of gas for each year, store them all in an array and display the result.
 Below will be a high-level description of the algorithm.
@@ -109,3 +109,19 @@ For every datapoint in the input file:
 
 ![AvgYearlyPrice](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/AverageYearlyPriceImage.png)
 
+According to the input data, the average yearly price of gas had consistently risen from 1993 to 2013. The data shows an all-time low average of $1.070 per gallon in 1998 and an all-time high average of $3.686 per gallon in 2012.
+
+### Average Monthly Price of Gas
+
+In this member function the purpose is to calculate the average price of gas for every month in each year, store all of the averages in a c++ vector and display the results to the terminal.
+Below is a high-level description of the algorithm.
+
+For every datapoint in the input file:
+
+* Add the price of gas to the monthly sum and keep track of the number of days in the month until the month changes.
+* If the month changes, insert the average into the vector, reset the monthly total, reset the number of days in the month and reset the current month counter accordingly.
+* Display the output array using a current month and current year counter when the loop exits.
+
+![AvgMonthlyPrice](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/AverageMonthlyPrice.png)
+
+According to the input data, the average monthly price of gas had a consistent increase from years 1993 to 2008. The average monthly price then significantly lowered at the end of 2008 followed by a consistent rise to 2013. The data shows an all-time low average of $0.959 per gallon in February of 1999 and an all-time high average of $4.125 per gallon in June of 2008.
