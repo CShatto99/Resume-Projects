@@ -78,7 +78,7 @@ Once the repository has been downloaded, open up the index.html file with google
 
 
 
-# 21 Years of Gas Prices (Incomplete)
+# 21 Years of Gas Prices
 
 ### Introduction
 
