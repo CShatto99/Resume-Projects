@@ -44,7 +44,7 @@ int main() {
 			getline(inFile, strPrice);
 
 			// set the values of the current lineInfo object using the integer conversions of the previous strings and increment the size
-			lineInfo[size++].setValues(stof(strMonth), stof(strDay), stof(strYear), stof(strPrice));
+			lineInfo[size++].setValues(stof(strMonth), stof(strDay), stof(strYear), stod(strPrice));
 
 		}
 
