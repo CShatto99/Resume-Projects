@@ -15,6 +15,10 @@ At the start of summer 2019 I heard about and became interested in topics of dat
 * Implemented the front-end and back-end of a contact form/page using the Node.js runtime environment.
 * Used HTML5 and CSS3 grids to structure each and style every page on the site from scratch (no Bootstrap).
 
+### Accessing the website
+
+If you would like to see the website in its entirety, the domain is [https://exploringdsa.com](http://exploringdsa.com/). If you happen to find mistakes with any of the content, notify me through the contact page.
+
 ### Implementing the Contact Page
 
 ![ContactPage](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteContactPage.png)
@@ -34,10 +38,6 @@ The image you see above is a very basic representation of the underlying structu
 For all of the project pages, a similar layout was used. The only difference is that the structure of the main content section consists of a nested grid. You can see the example here: 
 
 ![WebsiteCodeLayout](https://github.com/CShatto99/Resume-Projects/blob/master/READMEImg/WebsiteCodeLayout.png)
-
-### Accessing the website
-
-If you would like to see the website in its entirety, the domain is [https://exploringdsa.com](http://exploringdsa.com/). If you happen to find mistakes with any of the content, notify me through the contact page.
 
 
 
