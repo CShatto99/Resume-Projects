@@ -1,0 +1,11 @@
+﻿  21YearsOfGasPrices.cpp
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\NewLineMethods.h(23,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\NewLineMethods.h(34,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\NewLineMethods.h(69,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\NewLineMethods.h(102,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\NewLineMethods.h(116,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\NewLineMethods.h(147,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\21YearsOfGasPrices.cpp(34,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\21YearsOfGasPrices.cpp(34,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\camer\Documents\21YearsOfGasPrices\21YearsOfGasPrices\21YearsOfGasPrices.cpp(34,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  21YearsOfGasPrices.vcxproj -> C:\Users\camer\Documents\21YearsOfGasPrices\Debug\21YearsOfGasPrices.exe
